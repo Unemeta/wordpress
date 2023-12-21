@@ -23,7 +23,7 @@ const Section1 = () => {
           alt="Picture of the author"
           className="mb-14"
         />
-        <nav className="grid grid-cols-2 gap-7 pb-10">
+        {/* <nav className="grid grid-cols-2 gap-7 pb-10">
           <a className="transition duration-150 ease-in-out transform hover:scale-125 bg-[#582889] text-white font-semibold py-3 px-6 rounded-md">
             Coming Soon
           </a>
@@ -37,7 +37,7 @@ const Section1 = () => {
               className="ml-4"
             />
           </a>
-        </nav>
+        </nav> */}
       </div>
     </section>
   );
