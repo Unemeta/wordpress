@@ -19,6 +19,9 @@
 .fp-watermark {
   display: none;
 }
+.fp-overflow {
+  overflow: visible !important;
+}
 
 /* body {
   color: rgb(var(--foreground-rgb));

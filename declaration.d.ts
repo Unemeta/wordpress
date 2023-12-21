@@ -1,1 +1,1 @@
-declare module "fullpage.js";
+// declare module "fullpage.js";

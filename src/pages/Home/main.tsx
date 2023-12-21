@@ -1,20 +1,13 @@
 "use client";
 
 import { useEffect } from "react";
-import fullpage from "fullpage.js";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Section1 from "./Section1";
+import Section2 from "./Section2";
+import Section3 from "./Section3";
+import Section4 from "./Section4";
 
 export default function Main() {
-  useEffect(() => {
-    console.log(document.querySelector("#fullpage"));
-    new fullpage("#fullpage", {
-      //options here
-      autoScrolling: true,
-      scrollHorizontally: true,
-    });
-  }, []);
-
   return (
     <ReactFullpage
       credits={{
@@ -26,9 +19,9 @@ export default function Main() {
         return (
           <ReactFullpage.Wrapper>
             <Section1 />
-            <div className="section">Some section</div>
-            <div className="section">Some section</div>
-            <div className="section">Some section</div>
+            <Section2 />
+            <Section3 />
+            <Section4 />
           </ReactFullpage.Wrapper>
         );
       }}
