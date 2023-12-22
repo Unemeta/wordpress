@@ -9,17 +9,16 @@ const Section4 = () => {
       )}
     >
       <div className="flex flex-col justify-center items-center">
-        <Image
+        {/* <Image
           src="/images/oofi/section5_title.svg"
           width={300}
           height={100}
           alt="Picture of the author"
           className="mb-16"
-        />
+        /> */}
         <Image
-          src="/images/oofi/section5_main.svg"
-          width={800}
-          height={500}
+          src="/images/oofi/section5.svg"
+          fill
           alt="Picture of the author"
         />
       </div>

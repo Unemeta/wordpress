@@ -38,13 +38,7 @@ const Section3 = () => {
           </li>
           <li className="w-96 bg-white ml-2 p-5 rounded-lg shadow-md relative">
             {/* after:content-link after:absolute after:w-9 after:h-6 */}
-            {/* <Image
-              src="/images/oofi/icon2.svg"
-              width={100}
-              height={100}
-              alt="Picture of the author"
-              className="absolute transform translate-x-[320px] translate-y-[200px]"
-            /> */}
+
             <h4 className="font-bold text-lg mb-8">All Assets</h4>
             <p className="mb-8">
               OOFI will include assets such as inscriptions, runes, non-fungible
@@ -56,6 +50,16 @@ const Section3 = () => {
             </p>
           </li>
         </ul>
+        <div>
+          <Image
+            src="/images/oofi/icon2.svg"
+            width={100}
+            height={100}
+            style={{ objectFit: "contain" }}
+            alt="Picture of the author"
+            className="transform translate-x-[404px] translate-y-[-100px]"
+          />
+        </div>
       </div>
     </section>
   );
