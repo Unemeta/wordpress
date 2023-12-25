@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AccountMenu from "./Menu";
 
 const MainMenu = () => {
   return (
@@ -32,13 +33,9 @@ const MainMenu = () => {
       <section className="hidden md:block rounded-[1.2rem] border-solid border-[2px] border-[#582889] text-[#582889] px-3 py-1">
         Launch App
       </section>
-      <Image
-        src="/images/oofi/mobile/menu.svg"
-        width={32}
-        height={32}
-        alt="Picture of the author"
-        className="md:hidden block text-[#f00]"
-      />
+      <div className="block md:hidden">
+        <AccountMenu />
+      </div>
     </div>
   );
 };
