@@ -5,7 +5,7 @@ const Section3 = () => {
   return (
     <section
       className={classNames(
-        "section bg-[#F2ECF6] flex justify-center items-center h-[100vh]"
+        "section bg-[#F2ECF6] flex justify-center items-center md:h-[100vh]"
       )}
     >
       <div className="flex flex-col justify-center items-center">
@@ -14,16 +14,16 @@ const Section3 = () => {
           width={400}
           height={100}
           alt="Picture of the author"
-          className="mb-12"
+          className="my-12 w-[30%] md:w-[360px]"
         />
-        <ul className="flex justify-center text-sm mb-10 relative">
-          <li className="w-96 bg-white mr-2 p-5 rounded-lg shadow-md relative">
+        <ul className="flex flex-wrap  justify-center text-sm mb-10 relative">
+          <li className="w-[90%] md:w-96 mb-6 md:mb-0 bg-white md:mr-2 p-5 rounded-lg shadow-md relative">
             <Image
               src="/images/oofi/icon1.png"
               width={100}
               height={100}
               alt="Picture of the author"
-              className="absolute left-[-60px] top-[-50px]"
+              className="absolute md:left-[-60px] md:top-[-50px] right-0 top-[-2rem]"
             />
             <h4 className="font-bold text-lg mb-8">All Protocol</h4>
             <p className="mb-8">
@@ -36,7 +36,7 @@ const Section3 = () => {
               from the value-added services provided by OOFI.
             </p>
           </li>
-          <li className="w-96 bg-white ml-2 p-5 rounded-lg shadow-md relative">
+          <li className="w-[90%] md:w-96 bg-white md:ml-2 p-5 rounded-lg shadow-md relative">
             {/* after:content-link after:absolute after:w-9 after:h-6 */}
 
             <h4 className="font-bold text-lg mb-8">All Assets</h4>
@@ -57,7 +57,7 @@ const Section3 = () => {
             height={100}
             style={{ objectFit: "contain" }}
             alt="Picture of the author"
-            className="transform translate-x-[404px] translate-y-[-100px]"
+            className="md:transform md:translate-x-[404px] md:translate-y-[-100px] absolute md:relative translate-x-[5rem] translate-y-[-21rem]"
           />
         </div>
       </div>

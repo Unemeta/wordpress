@@ -1,6 +1,7 @@
 "use client";
 
 import ReactFullpage from "@fullpage/react-fullpage";
+import MainMenu from "@/layout/MainMenu";
 import Main from "./main";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
@@ -13,7 +14,8 @@ import Section7 from "./Section7";
 export default function Home() {
   return (
     <>
-      <ReactFullpage
+      <MainMenu />
+      {/* <ReactFullpage
         credits={{
           enabled: false,
         }}
@@ -22,18 +24,17 @@ export default function Home() {
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
-              <Section1 />
+            <Section1 />
               <Section2 />
               <Section3 />
               <Section4 />
-              {/* <Section5 /> */}
               <Section6 />
               <Section7 />
             </ReactFullpage.Wrapper>
           );
         }}
-      />
-      {/* <Main /> */}
+      /> */}
+      <Main />
     </>
   );
 }

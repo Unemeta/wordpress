@@ -5,7 +5,7 @@ const Section4 = () => {
   return (
     <section
       className={classNames(
-        "section bg-[#F9F9F9] flex justify-center items-center h-[100vh]"
+        "section bg-[#F9F9F9] flex justify-center items-center md:h-[100vh]"
       )}
     >
       <div className="flex flex-col justify-center items-center">
@@ -14,13 +14,21 @@ const Section4 = () => {
           width={600}
           height={100}
           alt="Picture of the author"
-          className="mb-16"
+          className="mb-16 md:block hidden"
         />
         <Image
           src="/images/oofi/production_concept.svg"
           width={800}
           height={500}
           alt="Picture of the author"
+          className="hidden md:block"
+        />
+        <Image
+          src="/images/oofi/mobile/section4/page.svg"
+          width={800}
+          height={500}
+          alt="Picture of the author"
+          className="md:hidden"
         />
       </div>
     </section>

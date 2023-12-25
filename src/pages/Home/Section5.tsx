@@ -5,7 +5,7 @@ const Section4 = () => {
   return (
     <section
       className={classNames(
-        "section bg-[#FFFBEF] flex justify-center items-center h-[100vh]"
+        "section bg-[#FFFBEF] flex justify-center items-center h-[100vh] relative"
       )}
     >
       <div className="flex flex-col justify-center items-center">
