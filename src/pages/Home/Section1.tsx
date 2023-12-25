@@ -6,7 +6,7 @@ const Section1 = () => {
     <section className="section">
       <section
         className={classNames(
-          "bg-[#fff] bg-[url('/images/oofi/section1_bg.svg')] bg-cover bg-no-repeat flex justify-center items-center md:h-[100vh]"
+          "bg-[#fff] bg-[url('/images/oofi/section1_bg.svg')] bg-cover bg-no-repeat flex justify-center items-center md:h-[100vh] pt-20 md:pt-0"
         )}
       >
         <div className="flex flex-col justify-center items-center">
@@ -28,7 +28,7 @@ const Section1 = () => {
             <a className="transition duration-150 ease-in-out transform hover:scale-125 bg-[#582889] text-white font-semibold py-3 px-6 rounded-md">
               Coming Soon
             </a>
-            <a className="transition duration-150 ease-in-out transform hover:scale-125 border-solid border-[#582889] border-[1px] text-[#582889] font-semibold py-3 px-6 rounded-md flex justify-between items-center">
+            <a href="https://odfi.gitbook.io/oofi/" className="transition duration-150 ease-in-out transform hover:scale-125 border-solid border-[#582889] border-[1px] text-[#582889] font-semibold py-3 px-6 rounded-md flex justify-between items-center">
               Document
               <Image
                 src="/images/oofi/arrow_right_icon.svg"
