@@ -85,11 +85,11 @@ export default function AccountMenu() {
       >
         <MenuItem onClick={handleClose}>
           {/* <Home fontSize="small" className="mr-3" />  */}
-          Home
+          <a href="#">Home</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {/* <AboutIcon fontSize="small" className="mr-3" />  */}
-          About
+          <a href="#aboutUs">About</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           {/* <AboutIcon fontSize="small" className="mr-3" />  */}

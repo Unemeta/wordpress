@@ -26,9 +26,15 @@ const MainMenu = () => {
         />
       </h1>
       <ul className="hidden md:grid grid-cols-3 gap-4 text-[#582889]">
-        <li>Home</li>
-        <li>Project</li>
-        <li>About us</li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#project">Project</a>
+        </li>
+        <li>
+          <a href="#aboutUs">About us</a>
+        </li>
       </ul>
       <section className="hidden md:block rounded-[1.2rem] border-solid border-[2px] border-[#582889] text-[#582889] px-3 py-1">
         Launch App

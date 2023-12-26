@@ -7,6 +7,7 @@ const Section4 = () => {
       className={classNames(
         "section bg-[#000] flex justify-center items-center md:h-[100vh] bg-[url('/images/oofi/section6_bg.svg')] bg-cover bg-no-repeat"
       )}
+      id="project"
     >
       <div className="flex flex-col justify-center items-center">
         <Image
