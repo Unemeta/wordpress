@@ -5,7 +5,7 @@ const MainMenu = () => {
   return (
     <div
       style={{
-        // position: "fixed",
+        position: "fixed",
         top: 0,
         left: 0,
         right: 0,
@@ -13,9 +13,9 @@ const MainMenu = () => {
         zIndex: "999",
         justifyContent: "space-between",
         alignItems: "center",
-        height: "4rem",
         padding: "0 1rem",
       }}
+      className="bg-white bg-opacity-50 h-12"
     >
       <h1>
         <Image

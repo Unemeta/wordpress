@@ -6,7 +6,7 @@ const Section1 = () => {
     <section className="section">
       <section
         className={classNames(
-          "bg-[#fff] bg-[url('/images/oofi/section1_bg.svg')] bg-cover bg-no-repeat flex justify-center items-center md:h-[100vh]"
+          "bg-[#fff] bg-[url('/images/oofi/section1_bg.svg')] bg-cover bg-no-repeat flex justify-center items-center md:h-[100vh] pt-20 md:pt-0"
         )}
       >
         <div className="flex flex-col justify-center items-center">
