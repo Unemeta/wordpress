@@ -21,7 +21,7 @@ const Section4 = () => {
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/oofi_vault">
+            <a href="https://twitter.com/Oofp_Vault">
               <Image
                 src="/images/oofi/twitter.png"
                 width={40}
