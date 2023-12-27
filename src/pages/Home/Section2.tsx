@@ -30,8 +30,8 @@ const Section2 = () => {
               className="mb-4 mx-auto w-20 md:w-32"
             />
             <p>
-              OOFP is a project within the Bitcoin ecosy-stem that provides
-              valueadd-ed services for assets like inscriptio-ns, runes, and
+              OOFP is a project within the Bitcoin ecosystem that provides
+              valueadded services for assets like inscriptions, runes, and
               NFTs.
             </p>
           </li>
@@ -45,7 +45,7 @@ const Section2 = () => {
             />
             <p>
               It combines a vault pool for mining with strategies like hodling,
-              staking, and DeFi to enhance asset appreci-ation and growth.
+              staking, and DeFi to enhance asset appreciation and growth.
             </p>
           </li>
           <li className="hidden md:block absolute right-[-60px] bottom-[-168px]">
