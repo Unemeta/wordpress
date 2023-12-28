@@ -10,7 +10,7 @@ const Section6 = () => {
       id="project"
     >
       <div className="flex flex-col justify-center items-center">
-        <p className="my-12 font-[Gilroy] font-black md:text-3xl text-[#fff]">
+        <p className="my-12 font-['Gilroy'] font-black md:text-3xl text-[#fff]">
           Product Roadmap
         </p>
         <Image

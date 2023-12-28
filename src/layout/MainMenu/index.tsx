@@ -15,7 +15,7 @@ const MainMenu = () => {
         alignItems: "center",
         padding: "0 1rem",
       }}
-      className="bg-white bg-opacity-50 h-12"
+      className="bg-white bg-opacity-50 h-12  animate__animated animate__backInDown"
     >
       <h1>
         <Image

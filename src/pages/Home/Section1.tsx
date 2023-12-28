@@ -15,7 +15,7 @@ const Section1 = () => {
             width={100}
             height={100}
             alt="Picture of the author"
-            className="mb-14 w-16 md:w-20"
+            className="mb-14 w-16 md:w-20 animate__animated animate__bounce"
           />
           {/* <Image
             src="/images/oofi/title.svg"
@@ -24,7 +24,7 @@ const Section1 = () => {
             alt="Picture of the author"
             className="mb-14 w-[90%] md:w-[50%]"
           /> */}
-          <div className="mb-14 text-center font-[Gilroy] font-extrabold md:text-[3rem] md:leading-[3rem] text-3xl">
+          <div className="mb-14 text-center font-['Gilroy'] font-extrabold md:text-[3rem] md:leading-[3rem] text-3xl">
             <h2
               className="mb-2 bg-clip-text text-transparent bg-gradient-to-b from-[#F25C2D] to-[#582889]"
               style={{
@@ -35,7 +35,9 @@ const Section1 = () => {
             >
               Ordinal Open
             </h2>
-            <h2 className="text-[#582889]">Financial Protocol</h2>
+            <h2 className="text-[#582889]">
+              Financial Protocol
+            </h2>
           </div>
           <nav className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-7 pb-10 md:w-auto text-xs md:text-sm">
             <a className="transition duration-150 ease-in-out transform hover:scale-125 bg-[#582889] text-white font-semibold py-3 px-6 rounded-md">

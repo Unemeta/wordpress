@@ -16,7 +16,7 @@ const Section3 = () => {
           alt="Picture of the author"
           className="my-12 w-[30%] md:w-[360px]"
         /> */}
-        <p className="my-12 w-[30%] md:w-[360px] font-[Gilroy] font-black md:text-3xl text-[#582889]">
+        <p className="my-12 w-[30%] md:w-[360px] font-['Gilroy'] font-black md:text-3xl text-[#582889]">
           OOFP’s Goal
         </p>
         <ul className="flex flex-wrap  justify-center text-sm mb-10 relative">

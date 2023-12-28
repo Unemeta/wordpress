@@ -16,7 +16,7 @@ const Section4 = () => {
           alt="Picture of the author"
           className="mb-16 md:block hidden"
         /> */}
-        <p className="my-12 font-[Gilroy] font-black md:text-3xl text-[#582889]">
+        <p className="my-12 font-['Gilroy'] font-black md:text-3xl text-[#582889]">
           First-Generation OOFP Product Concept
         </p>
         <Image
