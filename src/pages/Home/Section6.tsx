@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import Image from "next/image";
+import { Zoom } from "react-reveal";
 
 const Section6 = () => {
   return (
@@ -9,26 +10,28 @@ const Section6 = () => {
       )}
       id="project"
     >
-      <div className="flex flex-col justify-center items-center">
-        <p className="my-12 font-['Gilroy'] font-black md:text-3xl text-[#fff]">
-          Product Roadmap
-        </p>
-        <Image
-          src="/images/oofi/section6_main.svg"
-          width={700}
-          height={400}
-          alt="Picture of the author"
-          className="mb-16 hidden md:block"
-        />
+      <Zoom>
+        <div className="flex flex-col justify-center items-center">
+          <p className="my-12 font-['Gilroy'] font-black md:text-3xl text-[#fff]">
+            Product Roadmap
+          </p>
+          <Image
+            src="/images/oofi/section6_main.svg"
+            width={700}
+            height={400}
+            alt="Picture of the author"
+            className="mb-16 hidden md:block"
+          />
 
-        <Image
-          src="/images/oofi/mobile/section5/page.svg"
-          width={700}
-          height={400}
-          alt="Picture of the author"
-          className="md:hidden block w-[80%] pb-12"
-        />
-      </div>
+          <Image
+            src="/images/oofi/mobile/section5/page.svg"
+            width={700}
+            height={400}
+            alt="Picture of the author"
+            className="md:hidden block w-[80%] pb-12"
+          />
+        </div>
+      </Zoom>
     </section>
   );
 };

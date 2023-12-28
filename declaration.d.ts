@@ -1,1 +1,2 @@
-// declare module "fullpage.js";
+declare module "react-reveal/Zoom";
+declare module "react-reveal";
