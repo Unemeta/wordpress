@@ -9,13 +9,16 @@ const Section4 = () => {
       )}
     >
       <div className="flex flex-col justify-center items-center">
-        <Image
+        {/* <Image
           src="/images/oofi/section4_title.svg"
           width={600}
           height={100}
           alt="Picture of the author"
           className="mb-16 md:block hidden"
-        />
+        /> */}
+        <p className="my-12 font-[Gilroy] font-black md:text-3xl text-[#582889]">
+          First-Generation OOFP Product Concept
+        </p>
         <Image
           src="/images/oofi/production_concept.svg"
           width={800}
@@ -28,7 +31,7 @@ const Section4 = () => {
           width={800}
           height={500}
           alt="Picture of the author"
-          className="md:hidden"
+          className="md:hidden w-[80%] mb-8"
         />
       </div>
     </section>

@@ -24,13 +24,20 @@ const Section1 = () => {
             alt="Picture of the author"
             className="mb-14 w-[90%] md:w-[50%]"
           /> */}
-          <div className="mb-14 text-center font-[Gilroy] font-extrabold md:text-5xl text-2xl">
-            <h2 className="mb-2 bg-clip-text text-transparent bg-gradient-to-b from-[#F25C2D] to-[#582889]">
+          <div className="mb-14 text-center font-[Gilroy] font-extrabold md:text-[3rem] md:leading-[3rem] text-3xl">
+            <h2
+              className="mb-2 bg-clip-text text-transparent bg-gradient-to-b from-[#F25C2D] to-[#582889]"
+              style={{
+                background:
+                  "linear-gradient(180deg, #F25C2D 0%, #6D2F7C 54.19%, #582889 100.02%)",
+                backgroundClip: "text",
+              }}
+            >
               Ordinal Open
             </h2>
             <h2 className="text-[#582889]">Financial Protocol</h2>
           </div>
-          <nav className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-7 pb-10 md:w-auto">
+          <nav className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-7 pb-10 md:w-auto text-xs md:text-sm">
             <a className="transition duration-150 ease-in-out transform hover:scale-125 bg-[#582889] text-white font-semibold py-3 px-6 rounded-md">
               Coming Soon
             </a>

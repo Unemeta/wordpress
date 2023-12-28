@@ -17,7 +17,7 @@ const Section2 = () => {
           alt="Picture of the author"
           className="my-12 w-[50%] md:w-[360px]"
         /> */}
-        <p className="my-12 font-[Gilroy] font-black md:text-5xl text-[#582889]">
+        <p className="my-12 font-[Gilroy] font-black md:text-3xl text-[#582889]">
           Get to know OOFP
         </p>
         <ul className="flex flex-wrap justify-center text-sm mb-10 relative">
@@ -31,8 +31,7 @@ const Section2 = () => {
             />
             <p>
               OOFP is a project within the Bitcoin ecosystem that provides
-              valueadded services for assets like inscriptions, runes, and
-              NFTs.
+              valueadded services for assets like inscriptions, runes, and NFTs.
             </p>
           </li>
           <li className="w-[90%] md:w-96 md:h-64 h-auto bg-white md:ml-2 p-5 rounded-lg shadow-md">
@@ -62,9 +61,9 @@ const Section2 = () => {
           width={80}
           height={80}
           alt="Picture of the author"
-          className="mb-4 w-12"
+          className="md:mb-4 mb-0 w-12"
         />
-        <p className="text-[#6F49C5] p-9 text-center font-bold md:font-[Gilroy] md:font-extrabold md:text-2xl md:w-[680px]">
+        <p className="text-[#6F49C5] p-9 text-center font-bold md:font-[Gilroy] md:font-extrabold text-[.85rem] md:text-xl md:w-[680px]">
           OOFP Aims To Create A Vibrant Ecosystem In Which Assets Within The
           Bitcoin Network Can Thrive.
         </p>

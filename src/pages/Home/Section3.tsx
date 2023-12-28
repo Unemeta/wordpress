@@ -16,7 +16,7 @@ const Section3 = () => {
           alt="Picture of the author"
           className="my-12 w-[30%] md:w-[360px]"
         /> */}
-        <p className="my-12 w-[30%] md:w-[360px] font-[Gilroy] font-black md:text-5xl text-[#582889]">
+        <p className="my-12 w-[30%] md:w-[360px] font-[Gilroy] font-black md:text-3xl text-[#582889]">
           OOFP’s Goal
         </p>
         <ul className="flex flex-wrap  justify-center text-sm mb-10 relative">
@@ -28,7 +28,7 @@ const Section3 = () => {
               alt="Picture of the author"
               className="absolute md:left-[-60px] md:top-[-50px] right-0 top-[-2rem]"
             />
-            <h4 className="font-bold text-lg mb-8">All Protocol</h4>
+            <h4 className="font-bold md:text-lg mb-4 md:mb-8">All Protocol</h4>
             <p className="mb-8">
               OOFP will start with the BRC20 protocol as a foundation and extend
               its services to various protocol layers within the Bitcoin
@@ -42,7 +42,7 @@ const Section3 = () => {
           <li className="w-[90%] md:w-96 bg-white md:ml-2 p-5 rounded-lg shadow-md relative">
             {/* after:content-link after:absolute after:w-9 after:h-6 */}
 
-            <h4 className="font-bold text-lg mb-8">All Assets</h4>
+            <h4 className="font-bold md:text-lg mb-4 md:mb-8">All Assets</h4>
             <p className="mb-8">
               OOFP will include assets such as inscriptions, runes, non-fungible
               tokens (NFTs), and other digital assets.
