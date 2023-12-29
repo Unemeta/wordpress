@@ -27,11 +27,11 @@ const Section1 = () => {
           <div className="mb-14 text-center font-['Gilroy'] font-extrabold md:text-[3rem] md:leading-[3rem] text-3xl">
             <h2
               className="mb-2 bg-clip-text text-transparent bg-gradient-to-b from-[#F25C2D] to-[#582889]"
-              style={{
-                background:
-                  "linear-gradient(180deg, #F25C2D 0%, #6D2F7C 54.19%, #582889 100.02%)",
-                backgroundClip: "text",
-              }}
+              // style={{
+              //   background:
+              //     "linear-gradient(180deg, #F25C2D 0%, #6D2F7C 54.19%, #582889 100.02%)",
+              //   backgroundClip: "text",
+              // }}
             >
               Ordinal Open
             </h2>
